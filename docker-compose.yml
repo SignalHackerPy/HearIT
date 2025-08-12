@@ -1,0 +1,10 @@
+services:
+  hearit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: hearit
+    volumes:
+      - .:/app
+    command: "python hearit.py"
+
