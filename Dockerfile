@@ -11,5 +11,6 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Specify the command to run your app
-CMD ["python", "hearit.py"]
+ENTRYPOINT ["python", "hearit.py"]
+CMD ["-h"]
 
