@@ -3,14 +3,13 @@ HearIT! is a real-time SDRPlay-based tool that detects and displays live amateur
 # How to use it?
 Run application (with docker-compose):
 
-`chmod u+x ./hearit.py`
-
-`docker-compose run --rm app`
+    chmod u+x ./hearit.py
+    docker-compose run --rm app
 
 Build application (with docker-compose):
 
-`docker-compose build app`
+    docker-compose build app
 
 After building application, you can run your image:
 
-`docker run --rm hearit`
+    docker run --rm hearit
