@@ -1,5 +1,5 @@
 services:
-  hearit:
+  app:
     build:
       context: .
       dockerfile: Dockerfile
@@ -7,4 +7,3 @@ services:
     volumes:
       - .:/app
     command: "python hearit.py"
-
